@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>ACCOUNT REGISTRATION FORM</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+ <div class="wrapper" name="diva">
+  <h1>Register to create a profile.</h1>
+  <p>To create a profile please provide us with some basic information using
+  the contact form below. Please use valid credentials.</p>
+  <form class="form" name="frm" method="post" action="mainurl" enctype="multipart/form-data" onsubmit="return(chkrty())">
+    
+    
+    <input type="text" name="tno" class="no" placeholder="Employee No." onChange="chk()">
+    <div>
+      <p class="no-help">Please enter your preffered employeeno.</p>
+    </div>
+    <div>
+      <font face="open sans" size="2px" class="no-err" color="RED">Please enter a valid employee no.</font>
+    </div>
+    <div>
+      <font face="open sans" size="2px" class="no-empty" color="RED">This field is necessary</font>
+    </div>
+    
+    <input type="text" name="tname" class="name" placeholder="Name" onChange="chk()">
+    <div>
+      <p class="name-help">Please enter your first and last name.</p>
+    </div>
+    <div>
+      <font face="open sans" size="2px" class="name-empty" color="RED">This field is necessary</font>
+    </div>
+    
+    <input type="text" name="tage" class="age" placeholder="Age" onChange="chk()">
+    <div>
+      <p class="age-help">Please enter your Age.</p>
+    </div>
+    <div>
+      <font class="age-err" color="RED">Please enter a valid.</font>
+    </div>
+    <div>
+      <font face="open sans" size="2px" class="age-empty" color="RED">This field is necessary</font>
+    </div>
+    
+
+    <input type="date" name="tdate" class="date" placeholder="Date" onChange="chk()">
+    <div>
+      <p class="date-help">Please enter your Date of Birth</p>
+    </div>
+    <div>
+      <font face="open sans" size="2px" class="date-empty" color="RED">This field is necessary</font>
+    </div>
+
+    <input type="text" name="taddress" class="address" placeholder="Address" onChange="chk()">
+    <div>
+      <p class="address-help">Please enter your Address.</p>
+    </div>
+    <div>
+      <font face="open sans" size="2px" class="address-empty" color="RED">This field is necessary</font>
+    </div><br>
+      
+     <input type="file" name="tphoto" class="photo" placeholder="Photo" onChange="chk()">
+     <div>
+      <p class="file-help">Please enter your passport size photo.</p>
+    </div><br>
+    <input type="email" class="email" name="temail" placeholder="Email">
+     <div>
+      <p class="email-help">Please enter your current email address.</p>
+    </div>
+    <div>
+      <font face="open sans" size="2px" class="email-empty" color="RED">This field is necessary</font>
+    </div>
+    <input type="submit" class="submit" value="Register">
+  </form>
+</div>
+    <script src='js/jquery.js'></script>
+
+        <script src="js/index.js"></script>
+
+    
+    
+    
+  </body>
+</html>
