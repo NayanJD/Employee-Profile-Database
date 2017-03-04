@@ -21,5 +21,11 @@ Load the project.
 
 <h2>Snapshots</h2>
 
-<h4>1) 
+<h4>1)Homepage</h4>
+
+<img src="https://cloud.githubusercontent.com/assets/13899766/23581523/8c0b273a-013b-11e7-9d4f-e45d545c41ee.PNG">
+
+<h4>2)Registration page</h4>
+
+<img src=
       
