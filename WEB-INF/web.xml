@@ -1,0 +1,39 @@
+
+<web-app>
+  <context-param>
+    <param-name>path</param-name>
+    <param-value>E:\java\Tomcat8.0\webapps\EmpApp\</param-value>
+  </context-param>
+  <servlet>
+  	<servlet-name>abc</servlet-name>
+  	<servlet-class>com.nt.MainSrv</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>abc</servlet-name>
+  	<url-pattern>/mainurl</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+  	<servlet-name>def</servlet-name>
+  	<servlet-class>com.nt.HeaderSrv</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>def</servlet-name>
+  	<url-pattern>/headurl</url-pattern>
+  </servlet-mapping>
+
+
+  <servlet>
+  	<servlet-name>ghi</servlet-name>
+  	<servlet-class>com.nt.ResSrv</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>ghi</servlet-name>
+  	<url-pattern>/resurl</url-pattern>
+  </servlet-mapping>
+
+  <welcome-file-list>
+  	<welcome-file>index.html</welcome-file>
+  </welcome-file-list>
+  
+</web-app>
