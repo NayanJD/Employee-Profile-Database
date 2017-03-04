@@ -1,5 +1,5 @@
 # Employee-Profile-Database
-<h4>It is a servlet project with Tomcat Server to store and retrieve employee information</h4>
+<h4>It is a servlet project with Tomcat Server to store and retrieve employee information.</h4>
 
 <h2>Software Required</h2>
 <h4>
@@ -35,6 +35,8 @@ Load the project.
 
 <h4>4)Example of a record in browser
 
-<img src="
+<img src="https://cloud.githubusercontent.com/assets/13899766/23581628/43b45e3c-013d-11e7-8803-fa8673728025.PNG">
+
+<h3><i>Thanks for Browsing!</i></h3>
 
       
