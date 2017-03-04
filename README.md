@@ -29,4 +29,12 @@ Load the project.
 
 <img src="https://cloud.githubusercontent.com/assets/13899766/23581570/3dcea564-013c-11e7-8433-9965ff2cdbd3.PNG">
 
+<h4>3)Query page</h4>
+
+<img src="https://cloud.githubusercontent.com/assets/13899766/23581606/e5034704-013c-11e7-8199-3673c430a3a7.PNG">
+
+<h4>4)Example of a record in browser
+
+<img src="
+
       
