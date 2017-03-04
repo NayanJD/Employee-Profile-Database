@@ -27,5 +27,6 @@ Load the project.
 
 <h4>2)Registration page</h4>
 
-<img src=
+<img src="https://cloud.githubusercontent.com/assets/13899766/23581570/3dcea564-013c-11e7-8433-9965ff2cdbd3.PNG">
+
       
