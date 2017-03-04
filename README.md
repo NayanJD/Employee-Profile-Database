@@ -1,5 +1,5 @@
 # Employee-Profile-Database
-<h4>It is a servlet project with Tomcat Server to store and retrieve employee information.</h4>
+<h4>It is a servlet project with Tomcat Server and Java&trade; 8 to store and retrieve employee information.</h4>
 
 <h2>Software Required</h2>
 <h4>
